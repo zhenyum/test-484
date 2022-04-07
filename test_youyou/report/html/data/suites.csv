@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Apr 07 16:04:33 CST 2022","Thu Apr 07 16:04:34 CST 2022","186","case","test_login","","","","test_login[http://49.235.92.12:7005/api/v1/login-post-data0-login success!]",""
+"passed","Thu Apr 07 16:04:34 CST 2022","Thu Apr 07 16:04:34 CST 2022","147","case","test_login","","","","test_login[http://49.235.92.12:7005/api/v1/login-post-data1-账号或密码不正确]",""
+"passed","Thu Apr 07 16:04:34 CST 2022","Thu Apr 07 16:04:34 CST 2022","137","case","test_login","","","","test_login[http://49.235.92.12:7005/api/v1/login-post-data2-账号或密码不正确]",""

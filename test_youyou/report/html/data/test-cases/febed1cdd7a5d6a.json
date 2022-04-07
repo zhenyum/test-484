@@ -1,0 +1,115 @@
+{
+  "uid" : "febed1cdd7a5d6a",
+  "name" : "test_login[http://49.235.92.12:7005/api/v1/login-post-data2-账号或密码不正确]",
+  "fullName" : "case.test_login#test_login",
+  "historyId" : "ba55ef34a1cb73cb2f0544efecddcbbd",
+  "time" : {
+    "start" : 1649318674248,
+    "stop" : 1649318674385,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1649318673860,
+      "stop" : 1649318673860,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1649318673860,
+      "stop" : 1649318673860,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d02b901924021a69",
+      "name" : "stdout",
+      "source" : "d02b901924021a69.txt",
+      "type" : "text/plain",
+      "size" : 84
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-9LN36AOB"
+  }, {
+    "name" : "thread",
+    "value" : "13124-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_msg",
+    "value" : "'账号或密码不正确'"
+  }, {
+    "name" : "data",
+    "value" : "{'username': 'test1', 'password': 1234567}"
+  }, {
+    "name" : "method",
+    "value" : "'post'"
+  }, {
+    "name" : "url",
+    "value" : "'http://49.235.92.12:7005/api/v1/login'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "febed1cdd7a5d6a.json",
+  "parameterValues" : [ "'账号或密码不正确'", "{'username': 'test1', 'password': 1234567}", "'post'", "'http://49.235.92.12:7005/api/v1/login'" ]
+}

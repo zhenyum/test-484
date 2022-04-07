@@ -1,0 +1,31 @@
+[ {
+  "uid" : "62652ef44cd4513e",
+  "name" : "test_login[http://49.235.92.12:7005/api/v1/login-post-data0-login success!]",
+  "time" : {
+    "start" : 1649318673861,
+    "stop" : 1649318674047,
+    "duration" : 186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26fa8645f54c39ff",
+  "name" : "test_login[http://49.235.92.12:7005/api/v1/login-post-data1-账号或密码不正确]",
+  "time" : {
+    "start" : 1649318674079,
+    "stop" : 1649318674226,
+    "duration" : 147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "febed1cdd7a5d6a",
+  "name" : "test_login[http://49.235.92.12:7005/api/v1/login-post-data2-账号或密码不正确]",
+  "time" : {
+    "start" : 1649318674248,
+    "stop" : 1649318674385,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

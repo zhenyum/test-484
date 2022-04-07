@@ -1,0 +1,60 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "case.test_login",
+    "children" : [ {
+      "name" : "test_login[http://49.235.92.12:7005/api/v1/login-post-data0-login success!]",
+      "uid" : "62652ef44cd4513e",
+      "parentUid" : "7455f18e90cc23ccd1b95606a96b7fcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649318673861,
+        "stop" : 1649318674047,
+        "duration" : 186
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "'login success!'", "{'username': 'test1', 'password': 123456}", "'post'", "'http://49.235.92.12:7005/api/v1/login'" ]
+    }, {
+      "name" : "test_login[http://49.235.92.12:7005/api/v1/login-post-data1-账号或密码不正确]",
+      "uid" : "26fa8645f54c39ff",
+      "parentUid" : "7455f18e90cc23ccd1b95606a96b7fcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649318674079,
+        "stop" : 1649318674226,
+        "duration" : 147
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "'账号或密码不正确'", "{'username': None, 'password': 123456}", "'post'", "'http://49.235.92.12:7005/api/v1/login'" ]
+    }, {
+      "name" : "test_login[http://49.235.92.12:7005/api/v1/login-post-data2-账号或密码不正确]",
+      "uid" : "febed1cdd7a5d6a",
+      "parentUid" : "7455f18e90cc23ccd1b95606a96b7fcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649318674248,
+        "stop" : 1649318674385,
+        "duration" : 137
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "'账号或密码不正确'", "{'username': 'test1', 'password': 1234567}", "'post'", "'http://49.235.92.12:7005/api/v1/login'" ]
+    } ],
+    "uid" : "case.test_login"
+  } ]
+}
