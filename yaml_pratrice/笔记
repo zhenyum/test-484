@@ -1,0 +1,9 @@
+一：生成allure报告的步骤：
+    1.执行测试用例，然后生成allure可以识别的结果文件
+        在pytest中执行参数中添加：--alluredir ==相对根目录路径
+        在用例执行后，会生成json或者txt文件
+    2.解析1中的文件，呈现allure最终报告的路径
+        在命令行当中执行，allure serve allure结果文件的路径
+在程序入口直接执行：
+    pytest.main(['--alluredir', './report/temp'])
+    os.system('allure generate ./report/temp -o ./report/html --clear')

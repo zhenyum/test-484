@@ -1,0 +1,21 @@
+[ {
+  "uid" : "3f5582642b5cbd39",
+  "name" : "test_login_success[http://49.235.92.12:7005/api/v1/login-post-data0-login success!]",
+  "time" : {
+    "start" : 1649296460491,
+    "stop" : 1649296460674,
+    "duration" : 183
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0ed21f01bcf895a",
+  "name" : "test_login_success[http://49.235.92.12:7005/api/v1/login-post-data0-login success!]",
+  "time" : {
+    "start" : 1649296460305,
+    "stop" : 1649296460475,
+    "duration" : 170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

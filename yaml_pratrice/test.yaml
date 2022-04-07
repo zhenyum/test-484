@@ -1,0 +1,9 @@
+-
+  name: 正常登录
+  url: http://49.235.92.12:7005/api/v1/login
+  method: post
+  data:
+    username: test1
+    password: 123456
+  assert_msg: login success!
+

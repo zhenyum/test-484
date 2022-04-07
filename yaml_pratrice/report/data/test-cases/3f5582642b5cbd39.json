@@ -1,0 +1,112 @@
+{
+  "uid" : "3f5582642b5cbd39",
+  "name" : "test_login_success[http://49.235.92.12:7005/api/v1/login-post-data0-login success!]",
+  "fullName" : "test_3优化2#test_login_success",
+  "historyId" : "775d7d0817f705dc5577c7e1b6db4b68",
+  "time" : {
+    "start" : 1649296460491,
+    "stop" : 1649296460674,
+    "duration" : 183
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1649296460304,
+      "stop" : 1649296460304,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1649296460304,
+      "stop" : 1649296460304,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2e0dfa592652ced9",
+      "name" : "stdout",
+      "source" : "2e0dfa592652ced9.txt",
+      "type" : "text/plain",
+      "size" : 60
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_3优化2"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-9LN36AOB"
+  }, {
+    "name" : "thread",
+    "value" : "12264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_3优化2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assert_msg",
+    "value" : "'login success!'"
+  }, {
+    "name" : "data",
+    "value" : "{'username': 'test1', 'password': 123456}"
+  }, {
+    "name" : "method",
+    "value" : "'post'"
+  }, {
+    "name" : "url",
+    "value" : "'http://49.235.92.12:7005/api/v1/login'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f5582642b5cbd39.json",
+  "parameterValues" : [ "'login success!'", "{'username': 'test1', 'password': 123456}", "'post'", "'http://49.235.92.12:7005/api/v1/login'" ]
+}

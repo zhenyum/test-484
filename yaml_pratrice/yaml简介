@@ -1,0 +1,29 @@
+一、yaml简介
+    yaml是一种数据格式，支持注释，通过#注释
+    语法规则：
+        1.区分大小写
+        2.使用缩进判断层级搞系
+        3.支持注释
+二、JSON的格式
+ 1.MAP对象，又称字典dict
+ 2.数组：又称列表list
+
+json和yaml可以相互转换
+YAML
+MAP对象：
+    马上学院：{name:"百里"}
+    马上学院：
+        name:"百里"
+数组：
+     马上学院：
+        -name:"百里"
+        -name:"百里"
+        -name:"百里"
+      也可以写在一行[{name:"百里1"},{name:"百里2"},{name:"百里3"}]
+
+三、yaml格式用例的约定
+    1.必须包含一级关键字，如name、url
+    2.在request关键字下必须包括：method，url，data，如果data没有，输入默认值
+    3.提取变量使用一级关键字，支持json提取和正则表达式提取
+    4.支持equals,contains两种断言
+    5.使用parameters做csv文件的数据驱动，通过$csv{appid}这种格式取值

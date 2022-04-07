@@ -1,0 +1,47 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_2参数化",
+    "children" : [ {
+      "name" : "test_login_success[http://49.235.92.12:7005/api/v1/login-post-data0-login success!]",
+      "uid" : "a0ed21f01bcf895a",
+      "parentUid" : "60a4c7bd91232020f04e4d935ce9d991",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649296460305,
+        "stop" : 1649296460475,
+        "duration" : 170
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'username': 'test1', 'password': 123456}", "'post'", "'http://49.235.92.12:7005/api/v1/login'", "'login success!'" ]
+    } ],
+    "uid" : "60a4c7bd91232020f04e4d935ce9d991"
+  }, {
+    "name" : "test_3优化2",
+    "children" : [ {
+      "name" : "test_login_success[http://49.235.92.12:7005/api/v1/login-post-data0-login success!]",
+      "uid" : "3f5582642b5cbd39",
+      "parentUid" : "c90cfd86cd7349db913f706a5b410d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649296460491,
+        "stop" : 1649296460674,
+        "duration" : 183
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "'login success!'", "{'username': 'test1', 'password': 123456}", "'post'", "'http://49.235.92.12:7005/api/v1/login'" ]
+    } ],
+    "uid" : "c90cfd86cd7349db913f706a5b410d76"
+  } ]
+}
