@@ -10,12 +10,7 @@ def login(user="test1",psw="123456"):
         "password": psw
     }
     r = requests.post(url1, json=body)
-    print(r.text)
-
     # 获取token
     token = r.json().get('token')
     print('获取到的token:', token)
 
-
-if __name__ == "__main__":
-    t = login()

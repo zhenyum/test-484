@@ -17,4 +17,3 @@ data：保存每个接口的测试用例（yaml文件）
 report：用于保存测试报告
 
 run:程序主入口
-enhancement1
